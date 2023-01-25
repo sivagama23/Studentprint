@@ -8,13 +8,14 @@ package printstudentdetails;
  * define an entity Student - attributes name , sid, age et , functions / methods etc 
  * encapsulation principle - object oriented design principles - private variables then generate getters and setters
  * local rep in laptop: 1. initialize version 2. .gitconfig file, 3. .gitignore
- * netbeans code - working tree code - to local rep - commit;
+ * netbeans code - working tree code - saved to local rep - commit;
  * @author kumar
  */
 public class Student 
 {
     private String name;
     private int age;
+    private int sid;
 
     /**
      * @return the name
